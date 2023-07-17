@@ -1,0 +1,13 @@
+2023-07-10 19:47:00,786: INFO - *** AP:['identity_request', 'identity_request_not_well_formed', 'tracking_area_update_accept', 'attach_complete', 'detach_accept', 'identity_request_IMEI', 'extended_service_request', 'authentication_request', 'service_request', 'attach_request', 'identity_request_GUTI', 'security_mode_complete', 'identity_response', 'authentication_response', 'detach_request', 'identity_request_IMSI', 'security_mode_command', 'tracking_area_update_complete', 'tracking_area_update_request', 'attach_accept', 'emm_information']
+2023-07-10 19:47:00,786: INFO - *** +ve Traces Size:500
+2023-07-10 19:47:00,786: INFO - *** -ve Traces Size:500
+2023-07-10 19:47:00,786: INFO - *** Formula Size:3
+2023-07-10 19:47:01,011: INFO - Running CVC4SY...
+2023-07-10 19:47:01,011: INFO - Command: ['/home/ielo/SySLite/resources/cvc4', '--lang=sygus2', '--sygus-stream', '--sygus-sym-break-pbe', '2023-07-10_194700_identity_malformed_1250_1000_sygus_unrolled_encoding.sy']
+2023-07-10 19:47:03,080: INFO - Synthesized Formula Definition b'(define-fun phi ((identity_request (_ BitVec 101)) (identity_request_not_well_formed (_ BitVec 101)) (tracking_area_update_accept (_ BitVec 101)) (attach_complete (_ BitVec 101)) (detach_accept (_ BitVec 101)) (identity_request_IMEI (_ BitVec 101)) (extended_service_request (_ BitVec 101)) (authentication_request (_ BitVec 101)) (service_request (_ BitVec 101)) (attach_request (_ BitVec 101)) (identity_request_GUTI (_ BitVec 101)) (security_mode_complete (_ BitVec 101)) (identity_response (_ BitVec 101)) (authentication_response (_ BitVec 101)) (detach_request (_ BitVec 101)) (identity_request_IMSI (_ BitVec 101)) (security_mode_command (_ BitVec 101)) (tracking_area_update_complete (_ BitVec 101)) (tracking_area_update_request (_ BitVec 101)) (attach_accept (_ BitVec 101)) (emm_information (_ BitVec 101))) (_ BitVec 101) (bvimpl identity_request_not_well_formed S_FALSE))\n'
+2023-07-10 19:47:03,137: INFO - Synthesized Formula =>(identity_request_not_well_formed,FALSE)
+2023-07-10 19:47:03,138: INFO - Time: 2.35 seconds
+2023-07-10 19:47:03,138: INFO - Total Running Time Time: 2.35 seconds
+2023-07-10 19:47:03,380: INFO - Synthesized Signatures:
+2023-07-10 19:47:03,381: INFO - (1) =>(identity_request_not_well_formed,FALSE)
+2023-07-10 19:47:03,382: INFO - Time: 4.04 seconds

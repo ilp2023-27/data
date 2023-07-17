@@ -1,0 +1,43 @@
+BFS-based pruning.
+%%%%%%%%%%%%%%%%%%%%%%%
+% #nodes:	1
+% Grounding:	0.037s
+% #atoms:	23579
+% Solving:	0.001s
+% Total:	0.038s
+% Total (G): 	0.037s
+% Total (S): 	0.001s
+%%%%%%%%%%%%%%%%%%%%%%%
+% #nodes:	2
+% Grounding:	0.156s
+% #atoms:	33580
+% Solving:	0.080s
+% Total:	0.275s
+% Total (G): 	0.194s
+% Total (S): 	0.081s
+%%%%%%%%%%%%%%%%%%%%%%%
+% #nodes:	3
+% Grounding:	0.524s
+% #atoms:	55618
+% Solving:	0.487s
+% Total:	1.286s
+% Total (G): 	0.718s
+% Total (S): 	0.568s
+%%%%%%%%%%%%%%%%%%%%%%%
+% #nodes:	4
+% Grounding:	1.098s
+% #atoms:	71660
+% Solving:	1.757s
+% Total:	4.142s
+% Total (G): 	1.816s
+% Total (S): 	2.326s
+%%%%%%%%%%%%%%%%%%%%%%%
+% #nodes:	5
+% Grounding:	2.391s
+% #atoms:	87711
+% Solving:	6.706s
+% Total:	13.240s
+% Total (G): 	4.207s
+% Total (S): 	9.031s
+%%%%%%%%%%%%%%%%%%%%%%%
+Result: (G(((transaction_over_threshold_performed)->(F((transaction_over_threshold_approved)))))) 13.239

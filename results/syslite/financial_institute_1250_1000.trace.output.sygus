@@ -1,0 +1,13 @@
+2023-07-10 19:46:59,437: INFO - *** AP:['grant', 'request']
+2023-07-10 19:46:59,437: INFO - *** +ve Traces Size:500
+2023-07-10 19:46:59,437: INFO - *** -ve Traces Size:500
+2023-07-10 19:46:59,437: INFO - *** Formula Size:3
+2023-07-10 19:46:59,445: INFO - Running CVC4SY...
+2023-07-10 19:46:59,445: INFO - Command: ['/home/ielo/SySLite/resources/cvc4', '--lang=sygus2', '--sygus-stream', '--sygus-sym-break-pbe', '2023-07-10_194659_financial_institute_1250_1000_sygus_unrolled_encoding.sy']
+2023-07-10 19:47:50,513: INFO - Synthesized Formula Definition b'(define-fun phi ((grant (_ BitVec 10)) (request (_ BitVec 10))) (_ BitVec 10) (bvimpl grant (Y (S (bvnot grant) request))))\n'
+2023-07-10 19:47:50,567: INFO - Synthesized Formula =>(grant,Y(S(!(grant),request)))
+2023-07-10 19:47:50,567: INFO - Time: 51.13 seconds
+2023-07-10 19:47:50,567: INFO - Total Running Time Time: 51.13 seconds
+2023-07-10 19:47:50,954: INFO - Synthesized Signatures:
+2023-07-10 19:47:50,954: INFO - (1) =>(grant,Y(S(!(grant),request)))
+2023-07-10 19:47:50,954: INFO - Time: 51.59 seconds

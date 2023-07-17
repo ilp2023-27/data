@@ -1,0 +1,43 @@
+BFS-based pruning.
+%%%%%%%%%%%%%%%%%%%%%%%
+% #nodes:	1
+% Grounding:	0.052s
+% #atoms:	29260
+% Solving:	0.001s
+% Total:	0.053s
+% Total (G): 	0.052s
+% Total (S): 	0.001s
+%%%%%%%%%%%%%%%%%%%%%%%
+% #nodes:	2
+% Grounding:	0.204s
+% #atoms:	41821
+% Solving:	0.108s
+% Total:	0.364s
+% Total (G): 	0.255s
+% Total (S): 	0.109s
+%%%%%%%%%%%%%%%%%%%%%%%
+% #nodes:	3
+% Grounding:	0.648s
+% #atoms:	69299
+% Solving:	0.638s
+% Total:	1.651s
+% Total (G): 	0.903s
+% Total (S): 	0.747s
+%%%%%%%%%%%%%%%%%%%%%%%
+% #nodes:	4
+% Grounding:	1.352s
+% #atoms:	89341
+% Solving:	2.301s
+% Total:	5.303s
+% Total (G): 	2.255s
+% Total (S): 	3.047s
+%%%%%%%%%%%%%%%%%%%%%%%
+% #nodes:	5
+% Grounding:	2.828s
+% #atoms:	109392
+% Solving:	7.832s
+% Total:	15.963s
+% Total (G): 	5.083s
+% Total (S): 	10.879s
+%%%%%%%%%%%%%%%%%%%%%%%
+Result: (G(((covered_entity_dislcoses_patient_info_for_marketing)->(F((receive_patient_authorization_marketing)))))) 15.962

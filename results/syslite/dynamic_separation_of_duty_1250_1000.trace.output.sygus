@@ -1,0 +1,7 @@
+2023-07-10 19:46:59,427: INFO - *** AP:['member_activates_role1', 'member_activates_role2', 'member_deactivates_role2']
+2023-07-10 19:46:59,427: INFO - *** +ve Traces Size:500
+2023-07-10 19:46:59,427: INFO - *** -ve Traces Size:500
+2023-07-10 19:46:59,427: INFO - *** Formula Size:3
+2023-07-10 19:46:59,438: INFO - Running CVC4SY...
+2023-07-10 19:46:59,438: INFO - Command: ['/home/ielo/SySLite/resources/cvc4', '--lang=sygus2', '--sygus-stream', '--sygus-sym-break-pbe', '2023-07-10_194659_dynamic_separation_of_duty_1250_1000_sygus_unrolled_encoding.sy']
+CVC4 interrupted by SIGTERM.

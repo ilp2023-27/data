@@ -1,0 +1,19 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Pre-processing                          : 0.122s
+%% Hypothesis Space Generation             : 0.021s
+%% Counterexample search                   : 1.174s
+%%   - CDOEs                               : 0.192s
+%%   - CDPIs                               : 0.982s
+%% Hypothesis Search                       : 0.367s
+%% Total                                   : 1.693s
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+edge(4,5).
+label(2,implies).
+label(5,receive_patient_authorization_marketing).
+edge(2,4).
+edge(2,3).
+label(3,covered_entity_dislcoses_patient_info_for_marketing).
+label(4,eventually).
+edge(1,2).
+label(1,always).
+

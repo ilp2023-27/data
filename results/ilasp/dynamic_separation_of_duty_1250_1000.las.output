@@ -1,0 +1,10 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Pre-processing                          : 0.185s
+%% Hypothesis Space Generation             : 0.039s
+%% Counterexample search                   : 4.854s
+%%   - CDOEs                               : 0.615s
+%%   - CDPIs                               : 4.24s
+%% Hypothesis Search                       : 280.528s
+%% Total                                   : 618.959s
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+UNSATISFIABLE

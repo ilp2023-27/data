@@ -1,0 +1,15 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Pre-processing                          : 0.292s
+%% Hypothesis Space Generation             : 0.098s
+%% Counterexample search                   : 3.666s
+%%   - CDOEs                               : 0.335s
+%%   - CDPIs                               : 3.332s
+%% Hypothesis Search                       : 0.417s
+%% Total                                   : 4.483s
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+label(2,neg).
+edge(2,3).
+label(3,identity_request_not_well_formed).
+edge(1,2).
+label(1,always).
+

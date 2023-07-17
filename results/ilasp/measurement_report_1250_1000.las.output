@@ -1,0 +1,23 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Pre-processing                          : 0.32s
+%% Hypothesis Space Generation             : 0.099s
+%% Counterexample search                   : 9.204s
+%%   - CDOEs                               : 0.979s
+%%   - CDPIs                               : 8.227s
+%% Hypothesis Search                       : 45.975s
+%% Total                                   : 55.622s
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+edge(4,5).
+edge(5,7).
+label(4,until).
+label(2,implies).
+label(5,neg).
+edge(4,6).
+label(3,measurementreport).
+edge(2,4).
+edge(2,3).
+label(6,securitymodecomplete).
+label(1,always).
+label(7,rrcconnectionrelease).
+edge(1,2).
+

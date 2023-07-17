@@ -1,0 +1,43 @@
+BFS-based pruning.
+%%%%%%%%%%%%%%%%%%%%%%%
+% #nodes:	1
+% Grounding:	0.268s
+% #atoms:	117775
+% Solving:	0.035s
+% Total:	0.303s
+% Total (G): 	0.268s
+% Total (S): 	0.035s
+%%%%%%%%%%%%%%%%%%%%%%%
+% #nodes:	2
+% Grounding:	1.071s
+% #atoms:	194961
+% Solving:	0.475s
+% Total:	1.850s
+% Total (G): 	1.339s
+% Total (S): 	0.510s
+%%%%%%%%%%%%%%%%%%%%%%%
+% #nodes:	3
+% Grounding:	2.864s
+% #atoms:	272104
+% Solving:	2.767s
+% Total:	7.482s
+% Total (G): 	4.203s
+% Total (S): 	3.278s
+%%%%%%%%%%%%%%%%%%%%%%%
+% #nodes:	4
+% Grounding:	5.784s
+% #atoms:	349316
+% Solving:	14.032s
+% Total:	27.298s
+% Total (G): 	9.987s
+% Total (S): 	17.310s
+%%%%%%%%%%%%%%%%%%%%%%%
+% #nodes:	5
+% Grounding:	10.391s
+% #atoms:	426537
+% Solving:	60.954s
+% Total:	98.644s
+% Total (G): 	20.378s
+% Total (S): 	78.265s
+%%%%%%%%%%%%%%%%%%%%%%%
+Result: (G((~(((paging_imsi_and_tmsi)|(paging_imsi)))))) 98.643

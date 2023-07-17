@@ -1,0 +1,13 @@
+2023-07-10 19:47:00,911: INFO - *** AP:['security_mode_complete', 'authentication_failure', 'tracking_area_update_accept', 'emm_information_authenticated_and_ciphered', 'authentication_request', 'authentication_response', 'extended_service_request', 'identity_response', 'detach_accept', 'tracking_area_update_request', 'detach_request', 'service_request', 'security_mode_command', 'identity_request', 'attach_complete', 'tracking_area_update_complete', 'emm_information_not_authenticated_and_ciphered', 'attach_accept', 'attach_request']
+2023-07-10 19:47:00,911: INFO - *** +ve Traces Size:500
+2023-07-10 19:47:00,911: INFO - *** -ve Traces Size:500
+2023-07-10 19:47:00,911: INFO - *** Formula Size:3
+2023-07-10 19:47:01,126: INFO - Running CVC4SY...
+2023-07-10 19:47:01,126: INFO - Command: ['/home/ielo/SySLite/resources/cvc4', '--lang=sygus2', '--sygus-stream', '--sygus-sym-break-pbe', '2023-07-10_194700_emm_information_1250_1000_sygus_unrolled_encoding.sy']
+2023-07-10 19:47:03,642: INFO - Synthesized Formula Definition b'(define-fun phi ((security_mode_complete (_ BitVec 99)) (authentication_failure (_ BitVec 99)) (tracking_area_update_accept (_ BitVec 99)) (emm_information_authenticated_and_ciphered (_ BitVec 99)) (authentication_request (_ BitVec 99)) (authentication_response (_ BitVec 99)) (extended_service_request (_ BitVec 99)) (identity_response (_ BitVec 99)) (detach_accept (_ BitVec 99)) (tracking_area_update_request (_ BitVec 99)) (detach_request (_ BitVec 99)) (service_request (_ BitVec 99)) (security_mode_command (_ BitVec 99)) (identity_request (_ BitVec 99)) (attach_complete (_ BitVec 99)) (tracking_area_update_complete (_ BitVec 99)) (emm_information_not_authenticated_and_ciphered (_ BitVec 99)) (attach_accept (_ BitVec 99)) (attach_request (_ BitVec 99))) (_ BitVec 99) (bvimpl emm_information_not_authenticated_and_ciphered S_FALSE))\n'
+2023-07-10 19:47:03,697: INFO - Synthesized Formula =>(emm_information_not_authenticated_and_ciphered,FALSE)
+2023-07-10 19:47:03,698: INFO - Time: 2.79 seconds
+2023-07-10 19:47:03,698: INFO - Total Running Time Time: 2.79 seconds
+2023-07-10 19:47:03,950: INFO - Synthesized Signatures:
+2023-07-10 19:47:03,962: INFO - (1) =>(emm_information_not_authenticated_and_ciphered,FALSE)
+2023-07-10 19:47:03,962: INFO - Time: 4.64 seconds

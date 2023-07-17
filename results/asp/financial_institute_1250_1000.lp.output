@@ -1,0 +1,67 @@
+BFS-based pruning.
+%%%%%%%%%%%%%%%%%%%%%%%
+% #nodes:	1
+% Grounding:	0.051s
+% #atoms:	29174
+% Solving:	0.001s
+% Total:	0.053s
+% Total (G): 	0.051s
+% Total (S): 	0.001s
+%%%%%%%%%%%%%%%%%%%%%%%
+% #nodes:	2
+% Grounding:	0.220s
+% #atoms:	41797
+% Solving:	0.093s
+% Total:	0.366s
+% Total (G): 	0.272s
+% Total (S): 	0.094s
+%%%%%%%%%%%%%%%%%%%%%%%
+% #nodes:	3
+% Grounding:	0.742s
+% #atoms:	69213
+% Solving:	0.632s
+% Total:	1.740s
+% Total (G): 	1.013s
+% Total (S): 	0.726s
+%%%%%%%%%%%%%%%%%%%%%%%
+% #nodes:	4
+% Grounding:	1.326s
+% #atoms:	89255
+% Solving:	2.206s
+% Total:	5.274s
+% Total (G): 	2.340s
+% Total (S): 	2.932s
+%%%%%%%%%%%%%%%%%%%%%%%
+% #nodes:	5
+% Grounding:	2.374s
+% #atoms:	109306
+% Solving:	9.003s
+% Total:	16.651s
+% Total (G): 	4.714s
+% Total (S): 	11.935s
+%%%%%%%%%%%%%%%%%%%%%%%
+% #nodes:	6
+% Grounding:	3.780s
+% #atoms:	129369
+% Solving:	31.037s
+% Total:	51.468s
+% Total (G): 	8.494s
+% Total (S): 	42.972s
+%%%%%%%%%%%%%%%%%%%%%%%
+% #nodes:	7
+% Grounding:	67.458s
+% #atoms:	149433
+% Solving:	132.157s
+% Total:	251.084s
+% Total (G): 	75.953s
+% Total (S): 	175.129s
+%%%%%%%%%%%%%%%%%%%%%%%
+% #nodes:	8
+% Grounding:	52.554s
+% #atoms:	169520
+% Solving:	206.554s
+% Total:	510.192s
+% Total (G): 	128.506s
+% Total (S): 	381.683s
+%%%%%%%%%%%%%%%%%%%%%%%
+Result: (G(((grant)->(X(((~((grant)))U(request))))))) 510.189

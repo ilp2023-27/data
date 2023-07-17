@@ -1,0 +1,23 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Pre-processing                          : 0.123s
+%% Hypothesis Space Generation             : 0.021s
+%% Counterexample search                   : 2.213s
+%%   - CDOEs                               : 0.195s
+%%   - CDPIs                               : 2.017s
+%% Hypothesis Search                       : 5.361s
+%% Total                                   : 7.739s
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+edge(5,7).
+edge(3,4).
+edge(3,5).
+label(2,neg).
+edge(4,6).
+label(3,and).
+label(6,access_org2_records).
+edge(2,3).
+label(5,eventually).
+label(4,eventually).
+edge(1,2).
+label(7,access_org1_records).
+label(1,always).
+

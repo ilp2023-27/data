@@ -1,0 +1,59 @@
+BFS-based pruning.
+%%%%%%%%%%%%%%%%%%%%%%%
+% #nodes:	1
+% Grounding:	0.065s
+% #atoms:	35664
+% Solving:	0.002s
+% Total:	0.067s
+% Total (G): 	0.065s
+% Total (S): 	0.002s
+%%%%%%%%%%%%%%%%%%%%%%%
+% #nodes:	2
+% Grounding:	0.232s
+% #atoms:	46982
+% Solving:	0.137s
+% Total:	0.436s
+% Total (G): 	0.297s
+% Total (S): 	0.139s
+%%%%%%%%%%%%%%%%%%%%%%%
+% #nodes:	3
+% Grounding:	0.698s
+% #atoms:	75705
+% Solving:	0.777s
+% Total:	1.911s
+% Total (G): 	0.995s
+% Total (S): 	0.915s
+%%%%%%%%%%%%%%%%%%%%%%%
+% #nodes:	4
+% Grounding:	1.414s
+% #atoms:	95749
+% Solving:	2.948s
+% Total:	6.273s
+% Total (G): 	2.409s
+% Total (S): 	3.863s
+%%%%%%%%%%%%%%%%%%%%%%%
+% #nodes:	5
+% Grounding:	2.617s
+% #atoms:	115802
+% Solving:	11.284s
+% Total:	20.175s
+% Total (G): 	5.026s
+% Total (S): 	15.148s
+%%%%%%%%%%%%%%%%%%%%%%%
+% #nodes:	6
+% Grounding:	34.797s
+% #atoms:	135856
+% Solving:	37.840s
+% Total:	92.812s
+% Total (G): 	39.823s
+% Total (S): 	52.988s
+%%%%%%%%%%%%%%%%%%%%%%%
+% #nodes:	7
+% Grounding:	5.805s
+% #atoms:	155933
+% Solving:	96.078s
+% Total:	194.695s
+% Total (G): 	45.628s
+% Total (S): 	149.066s
+%%%%%%%%%%%%%%%%%%%%%%%
+Result: (G(((covered_entity_dislcoses_patient_psych_notes)->((~((authorization_psych_notes_revoked)))U(receive_patient_authorization_psych_notes))))) 194.694

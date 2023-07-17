@@ -1,0 +1,15 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Pre-processing                          : 0.273s
+%% Hypothesis Space Generation             : 0.1s
+%% Counterexample search                   : 3.796s
+%%   - CDOEs                               : 0.392s
+%%   - CDPIs                               : 3.403s
+%% Hypothesis Search                       : 0.607s
+%% Total                                   : 4.782s
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+label(2,neg).
+edge(2,3).
+label(3,paging_imsi_and_tmsi).
+label(1,always).
+edge(1,2).
+

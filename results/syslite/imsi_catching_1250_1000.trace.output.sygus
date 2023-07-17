@@ -1,0 +1,13 @@
+2023-07-10 19:47:00,602: INFO - *** AP:['attach_request', 'authentication_response', 'identity_request_GUTI', 'attach_complete', 'detach_request', 'identity_request', 'tracking_area_update_request', 'security_mode_complete', 'extended_service_request', 'service_request', 'attach_accept', 'emm_information', 'identity_request_IMEI', 'identity_request_IMSI', 'authentication_request', 'security_mode_command', 'tracking_area_update_complete', 'tracking_area_update_accept', 'identity_response', 'detach_accept']
+2023-07-10 19:47:00,602: INFO - *** +ve Traces Size:500
+2023-07-10 19:47:00,602: INFO - *** -ve Traces Size:500
+2023-07-10 19:47:00,602: INFO - *** Formula Size:3
+2023-07-10 19:47:00,798: INFO - Running CVC4SY...
+2023-07-10 19:47:00,798: INFO - Command: ['/home/ielo/SySLite/resources/cvc4', '--lang=sygus2', '--sygus-stream', '--sygus-sym-break-pbe', '2023-07-10_194700_imsi_catching_1250_1000_sygus_unrolled_encoding.sy']
+2023-07-10 19:47:02,781: INFO - Synthesized Formula Definition b'(define-fun phi ((attach_request (_ BitVec 91)) (authentication_response (_ BitVec 91)) (identity_request_GUTI (_ BitVec 91)) (attach_complete (_ BitVec 91)) (detach_request (_ BitVec 91)) (identity_request (_ BitVec 91)) (tracking_area_update_request (_ BitVec 91)) (security_mode_complete (_ BitVec 91)) (extended_service_request (_ BitVec 91)) (service_request (_ BitVec 91)) (attach_accept (_ BitVec 91)) (emm_information (_ BitVec 91)) (identity_request_IMEI (_ BitVec 91)) (identity_request_IMSI (_ BitVec 91)) (authentication_request (_ BitVec 91)) (security_mode_command (_ BitVec 91)) (tracking_area_update_complete (_ BitVec 91)) (tracking_area_update_accept (_ BitVec 91)) (identity_response (_ BitVec 91)) (detach_accept (_ BitVec 91))) (_ BitVec 91) (bvimpl identity_request_IMSI S_FALSE))\n'
+2023-07-10 19:47:02,849: INFO - Synthesized Formula =>(identity_request_IMSI,FALSE)
+2023-07-10 19:47:02,850: INFO - Time: 2.25 seconds
+2023-07-10 19:47:02,850: INFO - Total Running Time Time: 2.25 seconds
+2023-07-10 19:47:03,060: INFO - Synthesized Signatures:
+2023-07-10 19:47:03,061: INFO - (1) =>(identity_request_IMSI,FALSE)
+2023-07-10 19:47:03,061: INFO - Time: 3.72 seconds

@@ -1,0 +1,25 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Pre-processing                          : 0.201s
+%% Hypothesis Space Generation             : 0.038s
+%% Counterexample search                   : 2.435s
+%%   - CDOEs                               : 0.259s
+%%   - CDPIs                               : 2.176s
+%% Hypothesis Search                       : 17.172s
+%% Total                                   : 19.865s
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+edge(4,5).
+edge(5,7).
+label(5,until).
+label(2,implies).
+label(4,next).
+label(6,neg).
+edge(5,6).
+edge(6,8).
+label(7,request).
+edge(2,4).
+edge(2,3).
+label(3,grant).
+edge(1,2).
+label(8,grant).
+label(1,always).
+

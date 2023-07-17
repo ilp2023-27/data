@@ -1,0 +1,23 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Pre-processing                          : 0.098s
+%% Hypothesis Space Generation             : 0.054s
+%% Counterexample search                   : 3.283s
+%%   - CDOEs                               : 0.187s
+%%   - CDPIs                               : 3.095s
+%% Hypothesis Search                       : 59.098s
+%% Total                                   : 62.542s
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+label(2,implies).
+edge(4,5).
+edge(5,7).
+label(4,until).
+label(7,rrcconnectionsetupcomplete).
+label(6,securitymodecomplete).
+label(5,neg).
+edge(2,4).
+edge(2,3).
+label(3,rrcconnectionreconfiguration).
+edge(4,6).
+edge(1,2).
+label(1,always).
+

@@ -1,0 +1,13 @@
+2023-07-10 19:47:00,575: INFO - *** AP:['MME_not_null_encryption_chosen', 'UE_null_encryption_supported', 'tracking_area_update_request', 'attach_complete', 'emm_information', 'extended_service_request', 'detach_accept', 'MME_null_encryption_chosen', 'detach_request', 'attach_accept', 'security_mode_command', 'attach_request', 'tracking_area_update_accept', 'authentication_response', 'tracking_area_update_complete', 'authentication_request', 'UE_non_null_encryption_supported', 'security_mode_complete', 'identity_request', 'identity_response', 'service_request']
+2023-07-10 19:47:00,575: INFO - *** +ve Traces Size:500
+2023-07-10 19:47:00,575: INFO - *** -ve Traces Size:500
+2023-07-10 19:47:00,575: INFO - *** Formula Size:3
+2023-07-10 19:47:00,793: INFO - Running CVC4SY...
+2023-07-10 19:47:00,793: INFO - Command: ['/home/ielo/SySLite/resources/cvc4', '--lang=sygus2', '--sygus-stream', '--sygus-sym-break-pbe', '2023-07-10_194700_null_encryption_1250_800_sygus_unrolled_encoding.sy']
+2023-07-10 19:47:01,531: INFO - Synthesized Formula Definition b'(define-fun phi ((MME_not_null_encryption_chosen (_ BitVec 103)) (UE_null_encryption_supported (_ BitVec 103)) (tracking_area_update_request (_ BitVec 103)) (attach_complete (_ BitVec 103)) (emm_information (_ BitVec 103)) (extended_service_request (_ BitVec 103)) (detach_accept (_ BitVec 103)) (MME_null_encryption_chosen (_ BitVec 103)) (detach_request (_ BitVec 103)) (attach_accept (_ BitVec 103)) (security_mode_command (_ BitVec 103)) (attach_request (_ BitVec 103)) (tracking_area_update_accept (_ BitVec 103)) (authentication_response (_ BitVec 103)) (tracking_area_update_complete (_ BitVec 103)) (authentication_request (_ BitVec 103)) (UE_non_null_encryption_supported (_ BitVec 103)) (security_mode_complete (_ BitVec 103)) (identity_request (_ BitVec 103)) (identity_response (_ BitVec 103)) (service_request (_ BitVec 103))) (_ BitVec 103) (bvimpl MME_null_encryption_chosen S_FALSE))\n'
+2023-07-10 19:47:01,585: INFO - Synthesized Formula =>(MME_null_encryption_chosen,FALSE)
+2023-07-10 19:47:01,585: INFO - Time: 1.01 seconds
+2023-07-10 19:47:01,585: INFO - Total Running Time Time: 1.01 seconds
+2023-07-10 19:47:01,773: INFO - Synthesized Signatures:
+2023-07-10 19:47:01,773: INFO - (1) =>(MME_null_encryption_chosen,FALSE)
+2023-07-10 19:47:01,773: INFO - Time: 2.43 seconds

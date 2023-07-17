@@ -1,0 +1,13 @@
+2023-07-10 19:46:59,377: INFO - *** AP:['Transaction_over_threshold_performed', 'Transaction_over_threshold_approved']
+2023-07-10 19:46:59,378: INFO - *** +ve Traces Size:400
+2023-07-10 19:46:59,378: INFO - *** -ve Traces Size:400
+2023-07-10 19:46:59,378: INFO - *** Formula Size:3
+2023-07-10 19:46:59,384: INFO - Running CVC4SY...
+2023-07-10 19:46:59,384: INFO - Command: ['/home/ielo/SySLite/resources/cvc4', '--lang=sygus2', '--sygus-stream', '--sygus-sym-break-pbe', '2023-07-10_194659_bank_transaction_1250_800_sygus_unrolled_encoding.sy']
+2023-07-10 19:47:01,209: INFO - Synthesized Formula Definition b'(define-fun phi ((Transaction_over_threshold_performed (_ BitVec 10)) (Transaction_over_threshold_approved (_ BitVec 10))) (_ BitVec 10) (bvimpl Transaction_over_threshold_performed (O Transaction_over_threshold_approved)))\n'
+2023-07-10 19:47:01,265: INFO - Synthesized Formula =>(Transaction_over_threshold_performed,O(Transaction_over_threshold_approved))
+2023-07-10 19:47:01,265: INFO - Time: 1.89 seconds
+2023-07-10 19:47:01,266: INFO - Total Running Time Time: 1.89 seconds
+2023-07-10 19:47:01,480: INFO - Synthesized Signatures:
+2023-07-10 19:47:01,480: INFO - (1) =>(Transaction_over_threshold_performed,O(Transaction_over_threshold_approved))
+2023-07-10 19:47:01,481: INFO - Time: 2.17 seconds

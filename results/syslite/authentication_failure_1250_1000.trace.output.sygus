@@ -1,0 +1,13 @@
+2023-07-10 19:47:00,345: INFO - *** AP:['identity_request', 'tracking_area_update_accept', 'detach_accept', 'extended_service_request', 'attach_request', 'identity_response', 'emm_information', 'authentication_response', 'detach_request', 'authentication_request', 'service_request', 'authentication_failure', 'security_mode_complete', 'security_mode_command', 'attach_complete', 'tracking_area_update_request', 'tracking_area_update_complete', 'attach_accept']
+2023-07-10 19:47:00,345: INFO - *** +ve Traces Size:500
+2023-07-10 19:47:00,345: INFO - *** -ve Traces Size:500
+2023-07-10 19:47:00,346: INFO - *** Formula Size:3
+2023-07-10 19:47:00,527: INFO - Running CVC4SY...
+2023-07-10 19:47:00,527: INFO - Command: ['/home/ielo/SySLite/resources/cvc4', '--lang=sygus2', '--sygus-stream', '--sygus-sym-break-pbe', '2023-07-10_194700_authentication_failure_1250_1000_sygus_unrolled_encoding.sy']
+2023-07-10 19:47:01,090: INFO - Synthesized Formula Definition b'(define-fun phi ((identity_request (_ BitVec 97)) (tracking_area_update_accept (_ BitVec 97)) (detach_accept (_ BitVec 97)) (extended_service_request (_ BitVec 97)) (attach_request (_ BitVec 97)) (identity_response (_ BitVec 97)) (emm_information (_ BitVec 97)) (authentication_response (_ BitVec 97)) (detach_request (_ BitVec 97)) (authentication_request (_ BitVec 97)) (service_request (_ BitVec 97)) (authentication_failure (_ BitVec 97)) (security_mode_complete (_ BitVec 97)) (security_mode_command (_ BitVec 97)) (attach_complete (_ BitVec 97)) (tracking_area_update_request (_ BitVec 97)) (tracking_area_update_complete (_ BitVec 97)) (attach_accept (_ BitVec 97))) (_ BitVec 97) (bvimpl authentication_failure S_FALSE))\n'
+2023-07-10 19:47:01,147: INFO - Synthesized Formula =>(authentication_failure,FALSE)
+2023-07-10 19:47:01,147: INFO - Time: 0.80 seconds
+2023-07-10 19:47:01,147: INFO - Total Running Time Time: 0.80 seconds
+2023-07-10 19:47:01,318: INFO - Synthesized Signatures:
+2023-07-10 19:47:01,319: INFO - (1) =>(authentication_failure,FALSE)
+2023-07-10 19:47:01,319: INFO - Time: 1.98 seconds

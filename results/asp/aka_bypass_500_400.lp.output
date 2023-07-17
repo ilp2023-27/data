@@ -1,0 +1,59 @@
+BFS-based pruning.
+%%%%%%%%%%%%%%%%%%%%%%%
+% #nodes:	1
+% Grounding:	0.088s
+% #atoms:	39922
+% Solving:	0.010s
+% Total:	0.098s
+% Total (G): 	0.088s
+% Total (S): 	0.010s
+%%%%%%%%%%%%%%%%%%%%%%%
+% #nodes:	2
+% Grounding:	0.366s
+% #atoms:	66006
+% Solving:	0.145s
+% Total:	0.609s
+% Total (G): 	0.454s
+% Total (S): 	0.154s
+%%%%%%%%%%%%%%%%%%%%%%%
+% #nodes:	3
+% Grounding:	0.955s
+% #atoms:	92057
+% Solving:	0.850s
+% Total:	2.414s
+% Total (G): 	1.409s
+% Total (S): 	1.005s
+%%%%%%%%%%%%%%%%%%%%%%%
+% #nodes:	4
+% Grounding:	1.931s
+% #atoms:	118167
+% Solving:	3.616s
+% Total:	7.961s
+% Total (G): 	3.340s
+% Total (S): 	4.620s
+%%%%%%%%%%%%%%%%%%%%%%%
+% #nodes:	5
+% Grounding:	3.396s
+% #atoms:	144286
+% Solving:	22.761s
+% Total:	34.118s
+% Total (G): 	6.736s
+% Total (S): 	27.382s
+%%%%%%%%%%%%%%%%%%%%%%%
+% #nodes:	6
+% Grounding:	48.561s
+% #atoms:	170406
+% Solving:	150.871s
+% Total:	233.551s
+% Total (G): 	55.297s
+% Total (S): 	178.253s
+%%%%%%%%%%%%%%%%%%%%%%%
+% #nodes:	7
+% Grounding:	111.144s
+% #atoms:	196526
+% Solving:	267.616s
+% Total:	612.311s
+% Total (G): 	166.441s
+% Total (S): 	445.869s
+%%%%%%%%%%%%%%%%%%%%%%%
+Result: (G(((rrcconnectionreconfiguration)->((~((rrcconnectionsetup)))U(securitymodecomplete))))) 612.310

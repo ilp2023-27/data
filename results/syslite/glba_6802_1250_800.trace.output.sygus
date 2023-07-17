@@ -1,0 +1,13 @@
+2023-07-10 19:46:59,461: INFO - *** AP:['institution_dislcloses_to_affiliate_customers_npi', 'customer_opt_out', 'notice_of_disclosure']
+2023-07-10 19:46:59,461: INFO - *** +ve Traces Size:500
+2023-07-10 19:46:59,461: INFO - *** -ve Traces Size:500
+2023-07-10 19:46:59,461: INFO - *** Formula Size:3
+2023-07-10 19:46:59,472: INFO - Running CVC4SY...
+2023-07-10 19:46:59,472: INFO - Command: ['/home/ielo/SySLite/resources/cvc4', '--lang=sygus2', '--sygus-stream', '--sygus-sym-break-pbe', '2023-07-10_194659_glba_6802_1250_800_sygus_unrolled_encoding.sy']
+2023-07-10 19:47:25,705: INFO - Synthesized Formula Definition b'(define-fun phi ((institution_dislcloses_to_affiliate_customers_npi (_ BitVec 10)) (customer_opt_out (_ BitVec 10)) (notice_of_disclosure (_ BitVec 10))) (_ BitVec 10) (bvimpl institution_dislcloses_to_affiliate_customers_npi (S (bvnot customer_opt_out) notice_of_disclosure)))\n'
+2023-07-10 19:47:25,758: INFO - Synthesized Formula =>(institution_dislcloses_to_affiliate_customers_npi,S(!(customer_opt_out),notice_of_disclosure))
+2023-07-10 19:47:25,758: INFO - Time: 26.30 seconds
+2023-07-10 19:47:25,758: INFO - Total Running Time Time: 26.30 seconds
+2023-07-10 19:47:26,224: INFO - Synthesized Signatures:
+2023-07-10 19:47:26,224: INFO - (1) =>(institution_dislcloses_to_affiliate_customers_npi,S(!(customer_opt_out),notice_of_disclosure))
+2023-07-10 19:47:26,224: INFO - Time: 26.86 seconds

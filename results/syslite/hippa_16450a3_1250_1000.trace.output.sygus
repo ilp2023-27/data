@@ -1,0 +1,13 @@
+2023-07-10 19:46:59,363: INFO - *** AP:['covered_entity_dislcoses_patient_info_for_marketing', 'receive_patient_authorization_marketing']
+2023-07-10 19:46:59,363: INFO - *** +ve Traces Size:500
+2023-07-10 19:46:59,363: INFO - *** -ve Traces Size:500
+2023-07-10 19:46:59,363: INFO - *** Formula Size:3
+2023-07-10 19:46:59,370: INFO - Running CVC4SY...
+2023-07-10 19:46:59,370: INFO - Command: ['/home/ielo/SySLite/resources/cvc4', '--lang=sygus2', '--sygus-stream', '--sygus-sym-break-pbe', '2023-07-10_194659_hippa_16450a3_1250_1000_sygus_unrolled_encoding.sy']
+2023-07-10 19:47:01,390: INFO - Synthesized Formula Definition b'(define-fun phi ((covered_entity_dislcoses_patient_info_for_marketing (_ BitVec 10)) (receive_patient_authorization_marketing (_ BitVec 10))) (_ BitVec 10) (bvimpl covered_entity_dislcoses_patient_info_for_marketing (O receive_patient_authorization_marketing)))\n'
+2023-07-10 19:47:01,444: INFO - Synthesized Formula =>(covered_entity_dislcoses_patient_info_for_marketing,O(receive_patient_authorization_marketing))
+2023-07-10 19:47:01,444: INFO - Time: 2.08 seconds
+2023-07-10 19:47:01,445: INFO - Total Running Time Time: 2.08 seconds
+2023-07-10 19:47:01,708: INFO - Synthesized Signatures:
+2023-07-10 19:47:01,708: INFO - (1) =>(covered_entity_dislcoses_patient_info_for_marketing,O(receive_patient_authorization_marketing))
+2023-07-10 19:47:01,708: INFO - Time: 2.41 seconds

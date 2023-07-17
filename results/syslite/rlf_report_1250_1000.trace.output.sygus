@@ -1,0 +1,13 @@
+2023-07-10 19:47:01,730: INFO - *** AP:['rrcConnectionRequest', 'rrcConnectionReconfiguration', 'rrcConnectionReconfigurationComplete', 'rrcConnectionSetupComplete', 'csfbParametersResponseCDMA2000', 'ueCapabilityInformation', 'rrcConnectionSetup', 'ulInformationTransfer', 'securityModeCommand', 'securityModeComplete', 'measurementReport', 'ueInformationResponse-r9', 'rrcConnectionReestablishmentRequest', 'ueCapabilityEnquiry', 'rrcConnectionReestablishmentComplete', 'systemInformationBlockType1', 'ueInformationRequest-r9', 'systemInformation', 'dlInformationTransfer', 'rrcConnectionRelease', 'csfbParametersRequestCDMA2000', 'rrcConnectionReestablishment']
+2023-07-10 19:47:01,731: INFO - *** +ve Traces Size:500
+2023-07-10 19:47:01,731: INFO - *** -ve Traces Size:500
+2023-07-10 19:47:01,731: INFO - *** Formula Size:3
+2023-07-10 19:47:02,001: INFO - Running CVC4SY...
+2023-07-10 19:47:02,002: INFO - Command: ['/home/ielo/SySLite/resources/cvc4', '--lang=sygus2', '--sygus-stream', '--sygus-sym-break-pbe', '2023-07-10_194701_rlf_report_1250_1000_sygus_unrolled_encoding.sy']
+2023-07-10 19:56:06,949: INFO - Synthesized Formula Definition b'(define-fun phi ((rrcConnectionRequest (_ BitVec 100)) (rrcConnectionReconfiguration (_ BitVec 100)) (rrcConnectionReconfigurationComplete (_ BitVec 100)) (rrcConnectionSetupComplete (_ BitVec 100)) (csfbParametersResponseCDMA2000 (_ BitVec 100)) (ueCapabilityInformation (_ BitVec 100)) (rrcConnectionSetup (_ BitVec 100)) (ulInformationTransfer (_ BitVec 100)) (securityModeCommand (_ BitVec 100)) (securityModeComplete (_ BitVec 100)) (measurementReport (_ BitVec 100)) (ueInformationResponse-r9 (_ BitVec 100)) (rrcConnectionReestablishmentRequest (_ BitVec 100)) (ueCapabilityEnquiry (_ BitVec 100)) (rrcConnectionReestablishmentComplete (_ BitVec 100)) (systemInformationBlockType1 (_ BitVec 100)) (ueInformationRequest-r9 (_ BitVec 100)) (systemInformation (_ BitVec 100)) (dlInformationTransfer (_ BitVec 100)) (rrcConnectionRelease (_ BitVec 100)) (csfbParametersRequestCDMA2000 (_ BitVec 100)) (rrcConnectionReestablishment (_ BitVec 100))) (_ BitVec 100) (bvimpl ueInformationResponse-r9 (S (bvnot rrcConnectionRequest) securityModeCommand)))\n'
+2023-07-10 19:56:07,003: INFO - Synthesized Formula =>(ueInformationResponse-r9,S(!(rrcConnectionRequest),securityModeCommand))
+2023-07-10 19:56:07,003: INFO - Time: 545.27 seconds
+2023-07-10 19:56:07,004: INFO - Total Running Time Time: 545.27 seconds
+2023-07-10 19:56:19,795: INFO - Synthesized Signatures:
+2023-07-10 19:56:19,796: INFO - (1) =>(ueInformationResponse-r9,S(!(rrcConnectionRequest),securityModeCommand))
+2023-07-10 19:56:19,797: INFO - Time: 560.44 seconds

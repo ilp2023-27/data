@@ -1,0 +1,13 @@
+2023-07-10 19:46:59,424: INFO - *** AP:['access_org1_records', 'access_org2_records']
+2023-07-10 19:46:59,425: INFO - *** +ve Traces Size:500
+2023-07-10 19:46:59,425: INFO - *** -ve Traces Size:500
+2023-07-10 19:46:59,425: INFO - *** Formula Size:3
+2023-07-10 19:46:59,433: INFO - Running CVC4SY...
+2023-07-10 19:46:59,433: INFO - Command: ['/home/ielo/SySLite/resources/cvc4', '--lang=sygus2', '--sygus-stream', '--sygus-sym-break-pbe', '2023-07-10_194659_chinese_wall_policy_1250_1000_sygus_unrolled_encoding.sy']
+2023-07-10 19:47:20,852: INFO - Synthesized Formula Definition b'(define-fun phi ((access_org1_records (_ BitVec 10)) (access_org2_records (_ BitVec 10))) (_ BitVec 10) (bvimpl S_TRUE (bvnot (bvand (O access_org1_records) (O access_org2_records)))))\n'
+2023-07-10 19:47:20,905: INFO - Synthesized Formula =>(TRUE,!(&(O(access_org1_records),O(access_org2_records))))
+2023-07-10 19:47:20,905: INFO - Time: 21.48 seconds
+2023-07-10 19:47:20,905: INFO - Total Running Time Time: 21.48 seconds
+2023-07-10 19:47:21,361: INFO - Synthesized Signatures:
+2023-07-10 19:47:21,361: INFO - (1) =>(TRUE,!(&(O(access_org1_records),O(access_org2_records))))
+2023-07-10 19:47:21,361: INFO - Time: 22.01 seconds

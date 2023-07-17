@@ -1,0 +1,27 @@
+BFS-based pruning.
+%%%%%%%%%%%%%%%%%%%%%%%
+% #nodes:	1
+% Grounding:	0.150s
+% #atoms:	85873
+% Solving:	0.019s
+% Total:	0.169s
+% Total (G): 	0.150s
+% Total (S): 	0.019s
+%%%%%%%%%%%%%%%%%%%%%%%
+% #nodes:	2
+% Grounding:	0.652s
+% #atoms:	141791
+% Solving:	0.285s
+% Total:	1.106s
+% Total (G): 	0.802s
+% Total (S): 	0.304s
+%%%%%%%%%%%%%%%%%%%%%%%
+% #nodes:	3
+% Grounding:	2.012s
+% #atoms:	197680
+% Solving:	1.759s
+% Total:	4.877s
+% Total (G): 	2.814s
+% Total (S): 	2.063s
+%%%%%%%%%%%%%%%%%%%%%%%
+Result: (G((~((identity_request_imsi))))) 4.877

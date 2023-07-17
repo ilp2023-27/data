@@ -1,0 +1,13 @@
+2023-07-10 19:47:00,055: INFO - *** AP:['ueInformationResponse-r9', 'rrcConnectionReconfiguration', 'rrcConnectionReconfigurationComplete', 'rrcConnectionReestablishmentRequest', 'rrcConnectionSetupComplete', 'ueCapabilityEnquiry', 'rrcConnectionRequest', 'rrcConnectionReestablishment', 'csfbParametersRequestCDMA2000', 'csfbParametersResponseCDMA2000', 'ueCapabilityInformation', 'rrcConnectionReestablishmentComplete', 'systemInformation', 'dlInformationTransfer', 'systemInformationBlockType1', 'measurementReport', 'ulInformationTransfer', 'securityModeCommand', 'ueInformationRequest-r9', 'rrcConnectionSetup', 'securityModeComplete', 'rrcConnectionRelease']
+2023-07-10 19:47:00,055: INFO - *** +ve Traces Size:200
+2023-07-10 19:47:00,055: INFO - *** -ve Traces Size:200
+2023-07-10 19:47:00,055: INFO - *** Formula Size:3
+2023-07-10 19:47:00,151: INFO - Running CVC4SY...
+2023-07-10 19:47:00,151: INFO - Command: ['/home/ielo/SySLite/resources/cvc4', '--lang=sygus2', '--sygus-stream', '--sygus-sym-break-pbe', '2023-07-10_194700_aka_bypass_500_400_sygus_unrolled_encoding.sy']
+2023-07-10 19:49:20,928: INFO - Synthesized Formula Definition b'(define-fun phi ((ueInformationResponse-r9 (_ BitVec 99)) (rrcConnectionReconfiguration (_ BitVec 99)) (rrcConnectionReconfigurationComplete (_ BitVec 99)) (rrcConnectionReestablishmentRequest (_ BitVec 99)) (rrcConnectionSetupComplete (_ BitVec 99)) (ueCapabilityEnquiry (_ BitVec 99)) (rrcConnectionRequest (_ BitVec 99)) (rrcConnectionReestablishment (_ BitVec 99)) (csfbParametersRequestCDMA2000 (_ BitVec 99)) (csfbParametersResponseCDMA2000 (_ BitVec 99)) (ueCapabilityInformation (_ BitVec 99)) (rrcConnectionReestablishmentComplete (_ BitVec 99)) (systemInformation (_ BitVec 99)) (dlInformationTransfer (_ BitVec 99)) (systemInformationBlockType1 (_ BitVec 99)) (measurementReport (_ BitVec 99)) (ulInformationTransfer (_ BitVec 99)) (securityModeCommand (_ BitVec 99)) (ueInformationRequest-r9 (_ BitVec 99)) (rrcConnectionSetup (_ BitVec 99)) (securityModeComplete (_ BitVec 99)) (rrcConnectionRelease (_ BitVec 99))) (_ BitVec 99) (bvimpl rrcConnectionReconfiguration (S (bvnot rrcConnectionSetupComplete) securityModeCommand)))\n'
+2023-07-10 19:49:20,984: INFO - Synthesized Formula =>(rrcConnectionReconfiguration,S(!(rrcConnectionSetupComplete),securityModeCommand))
+2023-07-10 19:49:20,984: INFO - Time: 140.93 seconds
+2023-07-10 19:49:20,984: INFO - Total Running Time Time: 140.93 seconds
+2023-07-10 19:49:23,500: INFO - Synthesized Signatures:
+2023-07-10 19:49:23,501: INFO - (1) =>(rrcConnectionReconfiguration,S(!(rrcConnectionSetupComplete),securityModeCommand))
+2023-07-10 19:49:23,502: INFO - Time: 144.20 seconds

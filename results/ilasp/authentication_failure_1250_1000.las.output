@@ -1,0 +1,15 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Pre-processing                          : 0.31s
+%% Hypothesis Space Generation             : 0.082s
+%% Counterexample search                   : 2.282s
+%%   - CDOEs                               : 0.208s
+%%   - CDPIs                               : 2.074s
+%% Hypothesis Search                       : 0.637s
+%% Total                                   : 3.32s
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+label(3,authentication_failure).
+label(2,neg).
+edge(2,3).
+label(1,always).
+edge(1,2).
+

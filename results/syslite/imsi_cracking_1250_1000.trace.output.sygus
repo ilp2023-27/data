@@ -1,0 +1,13 @@
+2023-07-10 19:47:01,704: INFO - *** AP:['paging_no_identifier', 'paging_TMSI', 'rrcConnectionSetup', 'ulInformationTransfer', 'ueCapabilityInformation', 'securityModeCommand', 'rrcConnectionReestablishmentRequest', 'rrcConnectionReconfiguration', 'securityModeComplete', 'systemInformation', 'rrcConnectionSetupComplete', 'measurementReport', 'ueInformationRequest-r9', 'csfbParametersRequestCDMA2000', 'rrcConnectionReestablishmentComplete', 'paging_IMSI_and_TMSI', 'csfbParametersResponseCDMA2000', 'dlInformationTransfer', 'rrcConnectionReestablishment', 'rrcConnectionRequest', 'ueInformationResponse-r9', 'rrcConnectionReject', 'ueCapabilityEnquiry', 'rrcConnectionRelease', 'rrcConnectionReconfigurationComplete', 'systemInformationBlockType1']
+2023-07-10 19:47:01,704: INFO - *** +ve Traces Size:500
+2023-07-10 19:47:01,704: INFO - *** -ve Traces Size:500
+2023-07-10 19:47:01,704: INFO - *** Formula Size:3
+2023-07-10 19:47:01,982: INFO - Running CVC4SY...
+2023-07-10 19:47:01,983: INFO - Command: ['/home/ielo/SySLite/resources/cvc4', '--lang=sygus2', '--sygus-stream', '--sygus-sym-break-pbe', '2023-07-10_194701_imsi_cracking_1250_1000_sygus_unrolled_encoding.sy']
+2023-07-10 19:47:05,824: INFO - Synthesized Formula Definition b'(define-fun phi ((paging_no_identifier (_ BitVec 94)) (paging_TMSI (_ BitVec 94)) (rrcConnectionSetup (_ BitVec 94)) (ulInformationTransfer (_ BitVec 94)) (ueCapabilityInformation (_ BitVec 94)) (securityModeCommand (_ BitVec 94)) (rrcConnectionReestablishmentRequest (_ BitVec 94)) (rrcConnectionReconfiguration (_ BitVec 94)) (securityModeComplete (_ BitVec 94)) (systemInformation (_ BitVec 94)) (rrcConnectionSetupComplete (_ BitVec 94)) (measurementReport (_ BitVec 94)) (ueInformationRequest-r9 (_ BitVec 94)) (csfbParametersRequestCDMA2000 (_ BitVec 94)) (rrcConnectionReestablishmentComplete (_ BitVec 94)) (paging_IMSI_and_TMSI (_ BitVec 94)) (csfbParametersResponseCDMA2000 (_ BitVec 94)) (dlInformationTransfer (_ BitVec 94)) (rrcConnectionReestablishment (_ BitVec 94)) (rrcConnectionRequest (_ BitVec 94)) (ueInformationResponse-r9 (_ BitVec 94)) (rrcConnectionReject (_ BitVec 94)) (ueCapabilityEnquiry (_ BitVec 94)) (rrcConnectionRelease (_ BitVec 94)) (rrcConnectionReconfigurationComplete (_ BitVec 94)) (systemInformationBlockType1 (_ BitVec 94))) (_ BitVec 94) (bvimpl paging_IMSI_and_TMSI S_FALSE))\n'
+2023-07-10 19:47:05,882: INFO - Synthesized Formula =>(paging_IMSI_and_TMSI,FALSE)
+2023-07-10 19:47:05,882: INFO - Time: 4.18 seconds
+2023-07-10 19:47:05,882: INFO - Total Running Time Time: 4.18 seconds
+2023-07-10 19:47:06,233: INFO - Synthesized Signatures:
+2023-07-10 19:47:06,233: INFO - (1) =>(paging_IMSI_and_TMSI,FALSE)
+2023-07-10 19:47:06,233: INFO - Time: 6.89 seconds

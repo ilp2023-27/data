@@ -1,0 +1,13 @@
+2023-07-10 19:46:59,435: INFO - *** AP:['covered_entity_dislcoses_patient_psych_notes', 'authorization_psych_notes_revoked', 'receive_patient_authorization_psych_notes']
+2023-07-10 19:46:59,436: INFO - *** +ve Traces Size:500
+2023-07-10 19:46:59,436: INFO - *** -ve Traces Size:500
+2023-07-10 19:46:59,436: INFO - *** Formula Size:3
+2023-07-10 19:46:59,447: INFO - Running CVC4SY...
+2023-07-10 19:46:59,447: INFO - Command: ['/home/ielo/SySLite/resources/cvc4', '--lang=sygus2', '--sygus-stream', '--sygus-sym-break-pbe', '2023-07-10_194659_hippa_16450a2_1250_1000_sygus_unrolled_encoding.sy']
+2023-07-10 19:47:24,771: INFO - Synthesized Formula Definition b'(define-fun phi ((covered_entity_dislcoses_patient_psych_notes (_ BitVec 10)) (authorization_psych_notes_revoked (_ BitVec 10)) (receive_patient_authorization_psych_notes (_ BitVec 10))) (_ BitVec 10) (bvimpl covered_entity_dislcoses_patient_psych_notes (S (bvnot authorization_psych_notes_revoked) receive_patient_authorization_psych_notes)))\n'
+2023-07-10 19:47:24,826: INFO - Synthesized Formula =>(covered_entity_dislcoses_patient_psych_notes,S(!(authorization_psych_notes_revoked),receive_patient_authorization_psych_notes))
+2023-07-10 19:47:24,826: INFO - Time: 25.39 seconds
+2023-07-10 19:47:24,826: INFO - Total Running Time Time: 25.39 seconds
+2023-07-10 19:47:25,301: INFO - Synthesized Signatures:
+2023-07-10 19:47:25,301: INFO - (1) =>(covered_entity_dislcoses_patient_psych_notes,S(!(authorization_psych_notes_revoked),receive_patient_authorization_psych_notes))
+2023-07-10 19:47:25,301: INFO - Time: 25.96 seconds
