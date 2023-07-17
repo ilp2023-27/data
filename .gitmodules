@@ -1,0 +1,3 @@
+[submodule "SySLite"]
+	path = SySLite
+	url = https://github.com/CLC-UIowa/SySLite
